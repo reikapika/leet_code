@@ -25,7 +25,7 @@ class Solution(object):
                 l2 = l2.next
             carry, val = (carry // 10, carry % 10)
             n.next = n = ListNode(val);
-        return result.next;
+        return result
 
 l1 = current = ListNode(2)
 current.next = ListNode(4)
