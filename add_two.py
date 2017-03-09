@@ -23,7 +23,8 @@ class Solution(object):
             if l2:
                 v2 = l2.val
                 l2 = l2.next
-            carry, val = (carry // 10, carry % 10)
+            carry, val = ((v1+v2+carry) // 10, (v1+v2+carry) % 10)
+            #or carry, val = divmod((v1+v2+carry), 10)
             n.next = n = ListNode(val);
         return result
 
