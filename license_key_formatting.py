@@ -66,7 +66,7 @@ class Solution(object):
             return (temp + result).upper()
 
 
-#Shorter Solution from other submission -
+#Shorter Solution from other submission - MUCH FASTER ALGORITHM WITH .UPPER() AND .REPLACE() (both written in native C)
 class Solution(object):
     def licenseKeyFormatting(self, S, K):
         """
